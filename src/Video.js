@@ -20,9 +20,9 @@ import Modal from 'react-bootstrap/Modal'
 import 'bootstrap/dist/css/bootstrap.css'
 import "./Video.css"
 
-const server_url = 'https://redcore-nodemeet-dot-redcore-timeline.appspot.com';
+const server_url = '';
 
-// process.env.NODE_ENV === 'production' ? 'https://redcore-nodemeet-dot-redcore-timeline.appspot.com/room' : `http://localhost:${process.env.PORT_IO}`
+// process.env.NODE_ENV === 'production' ? '' : `http://localhost:${process.env.PORT_IO}`
 
 var connections = {}
 const peerConnectionConfig = {
